@@ -54,7 +54,7 @@ def wasya_run() -> None:
 
   input("SCAN QR-CODE AND PRESS ENTER TO CONTINUE")
   
-  search_chat(driver, "GADOL")
+  search_chat(driver, "CHAT_NAME_TO_SEND_TO")
   
   time.sleep(5)
   messages = ["Hello, this is from python :)"] * 200
